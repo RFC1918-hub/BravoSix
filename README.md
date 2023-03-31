@@ -8,7 +8,8 @@ ___  ____ ____ _  _ ____    ____ _ _  _      ____ ____ _ _  _ ____    ___  ____ 
 !! Require administrator shell
 
 ```powershell
-iex (iwr 
+iex (iwr https://github.com/RFC1918-hub/BravoSix/blob/main/Invoke-BravoSix.ps1 -UseBasicParsing)
+Invoke-BravoSix
 ```
 
 # Credits
