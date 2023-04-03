@@ -15,5 +15,5 @@ Invoke-BravoSix
 ```
 
 # Credits
-Yaxser/Backstab - (https://github.com/hlldz/Phant0m)
-hlldz/Phant0m - (https://github.com/Yaxser/Backstab)
+* Yaxser/Backstab - (https://github.com/hlldz/Phant0m)
+* hlldz/Phant0m - (https://github.com/Yaxser/Backstab)
